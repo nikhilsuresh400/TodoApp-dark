@@ -1,0 +1,115 @@
+.Wrapper {
+  width: 50vw;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  background-color: var(--dark-color);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.Title {
+  margin-bottom: 2rem;
+}
+
+.taskInput {
+  width: 32%;
+  margin: 1rem;
+  padding: 0.8rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  color: var(--light-color);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.descInput {
+  width: 32%;
+  margin: 1rem;
+  padding: 0.8rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  color: var(--light-color);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.addTaskButton {
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--light-btn);
+  color: var(--dark-color);
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.addTaskButton:active {
+  scale: 0.98;
+}
+
+::placeholder {
+  color: rgb(80, 80, 80);
+}
+
+.Form {
+  margin-bottom: 2rem;
+}
+
+.taskDisplay {
+  background-color: rgb(20, 20, 20);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.noTaskDisplay {
+  color: rgb(77, 77, 77);
+}
+
+.taskList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.TaskHead {
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.TaskDesc {
+  color: rgba(87, 87, 87, 0.616);
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.taskDiv {
+  width: 60%;
+  text-align: start;
+}
+
+.deleteButton {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 3.2px;
+  font-weight: 500;
+  background-color: rgb(194, 41, 41);
+  color: var(--light-color);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.deleteButton:active {
+  scale: 0.98;
+}
